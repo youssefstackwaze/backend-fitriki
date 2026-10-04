@@ -1,0 +1,72 @@
+# ================================
+# Fichiers à ignorer lors du build Docker
+# ================================
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# TypeScript
+dist
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Tests
+coverage
+*.test.ts
+*.spec.ts
+__tests__
+
+# Documentation
+*.md
+docs
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Scripts
+scripts
+*.sh
+*.bat
+
+# Temp
+tmp
+temp
+*.tmp
+
+# Backup
+*.bak
+*.backup
+
+# OS
+Thumbs.db
